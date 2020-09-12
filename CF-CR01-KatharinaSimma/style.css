@@ -1,17 +1,25 @@
+*{
+	padding:  0;
+	font-size: 1em;
+}
+
 body{
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif; /*This is not the exact font
+	but by using Google font it should at least display the same on 
+	all devices*/
 
 }
 
 /*Header*/
-
 header{
 	background-color: #CABBB7;
-	padding-top: 4em;
-	padding-bottom:  3.5em;
+	padding-top: 3em;
+	padding-bottom:  3em;
 	padding-left: 3em;
 	padding-right:  2em;
+	font-size: 1.65em;
 }
+
 
 header img{
 	height:  4.5em;
@@ -19,10 +27,7 @@ header img{
 	top:  0;
 	right:  0;
 	padding:  2em;
-
-
 }
-
 /*End of Header*/
 
 
@@ -30,9 +35,9 @@ header img{
 nav{
 	background-color: #C65252;
 	text-align: right;
-	padding-top:  0.5em;
-	padding-bottom: 0.75em;
-		}
+	padding-top:  0.1em;
+	padding-bottom: 0.1em;
+}
 
 ul{
 	padding-right: 2em;
@@ -47,7 +52,7 @@ li a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
-	font-size:  1.4em;
+	font-size:  1.75em;
 }
 /*End of Navigation Bar*/
 
@@ -59,10 +64,10 @@ main > div{
 
 h1{
 	text-align: center;
-	font-size: 350%;
-	margin-top: 1em;
-	margin-bottom:  2em;
-	
+	font-size: 450%;
+	margin-top: 0.75em;
+	margin-bottom:  1em;
+	font-weight: bold;
 }
 
 main img{
@@ -71,19 +76,15 @@ main img{
 	object-fit: cover; /*crops image and keeps ratio to keep max-height, responsive*/
 }
 
-
-
-
-
 main p{
-	font-size: 150%;
+	font-size: 175%;
 	font-weight:  bold;
 	text-align:  center;
 	margin-bottom:  1em;
 	margin-top: 0.2em;
 }
 
-.twocolumns{
+.twocolumngrid{
 	margin: 0;
 }
 
@@ -96,16 +97,17 @@ main p{
 /*End of Main*/
 
 /*Footer*/
-
 footer{
 	background-color: #CABBB7;
 	text-align: center;
 	padding: 0.75em;
 	clear: left;
+	font-size: 120%;
 }
 
 footer img{
-	height:  4em;
+	height:  4.25em;
+	padding-top: 0.75em;
 }
 /*End of Footer*/
 
