@@ -1,0 +1,114 @@
+body{
+	font-family: Roboto;
+
+}
+
+/*Header*/
+
+header{
+	background-color: #CABBB7;
+	padding-top: 4em;
+	padding-bottom:  3.5em;
+	padding-left: 3em;
+	padding-right:  2em;
+}
+
+header img{
+	height:  4.5em;
+	position: absolute;
+	top:  0;
+	right:  0;
+	padding:  2em;
+
+
+}
+
+/*End of Header*/
+
+
+/*Navigation Bar*/
+nav{
+	background-color: #C65252;
+	text-align: right;
+	padding-top:  0.5em;
+	padding-bottom: 0.75em;
+		}
+
+ul{
+	padding-right: 2em;
+}
+
+ul li{
+	display: inline;
+	padding-right: 1em;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:  1.4em;
+}
+/*End of Navigation Bar*/
+
+/*Main*/
+main > div{
+	margin-left:  5%;
+	margin-right: 5%;
+}
+
+h1{
+	text-align: center;
+	font-size: 350%;
+	margin-top: 1em;
+	margin-bottom:  2em;
+	
+}
+
+main img{
+	width: 100%; /*% of an images' container*/
+	max-height: 17em;
+	object-fit: cover; /*crops image and keeps ratio to keep max-height, responsive*/
+}
+
+
+
+
+
+main p{
+	font-size: 150%;
+	font-weight:  bold;
+	text-align:  center;
+	margin-bottom:  1em;
+	margin-top: 0.2em;
+}
+
+.twocolumns{
+	margin: 0;
+}
+
+.column{
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+/*End of Main*/
+
+/*Footer*/
+
+footer{
+	background-color: #CABBB7;
+	text-align: center;
+	padding: 0.75em;
+	clear: left;
+}
+
+footer img{
+	height:  4em;
+}
+/*End of Footer*/
+
+
+
+
